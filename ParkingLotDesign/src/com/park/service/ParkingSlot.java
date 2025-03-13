@@ -36,4 +36,18 @@ public class ParkingSlot {
 	public VehicleType getType() {
 		return type;
 	}
+
+	public String getSpotId() {
+		return spotId;
+	}
+
+	public boolean isOccupied() {
+		return isOccupied;
+	}
+
+	public Vehicle getVehicle() {
+		return vehicle;
+	}
+	
+	
 }
