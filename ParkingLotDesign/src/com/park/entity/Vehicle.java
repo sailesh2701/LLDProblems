@@ -1,7 +1,13 @@
 package com.park.entity;
 
-public enum Vehicle {
+public abstract class Vehicle {
 
-	CAR, BIKE, HEAVY_VECHICLE;
+	public String vehicleNumber;
+	public VehicleType type;
+
+	public Vehicle(String vehicleNumber, VehicleType type) {
+		this.vehicleNumber = vehicleNumber;
+		this.type = type;
+	}
 
 }
